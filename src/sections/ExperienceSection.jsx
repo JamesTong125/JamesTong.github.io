@@ -92,7 +92,7 @@ export const ExperienceSection = () => {
         <section id="experience" className="w-full md:mt-40 mt-20 section-padding xl:px-0">
 
             <div className="w-full h-full md:px-20 px-5">
-                <TitleHeader title="Professional Work Experience" sub=" My Professional Overview "/>
+                <TitleHeader title="Experience" sub=" My Professional Overview "/>
 
 
                 <div className="mt-32 relative">
@@ -103,9 +103,7 @@ export const ExperienceSection = () => {
                                 <div className="xl:w-2/6">
 
                                     <GlowCard card={card} index={index}>
-                                        <div>
-                                            <img src={card.imgPath} alt={card.title}/>
-                                        </div>
+                                        
                                     </GlowCard>
                                 </div>
 

@@ -53,13 +53,13 @@ export const ShowcaseSection = () => {
                     {/*left */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src="" alt=""/>
+                            <img src="images/CubeStand.png" alt="CubeStand"/>
                         </div>
 
                         <div className="text-content">
-                            <h2>description of stuff</h2>
+                            <h2>Rubik's Cubing stand</h2>
                             <p className="text-white-50 md:text-xl">
-                                keep yapping about stuff
+                                An assistive Rubik's Cubing stand designed for amputees and other individuals with limited upper body dexterity.
                             </p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@ export const ShowcaseSection = () => {
                     <div className="project-list-wrapper overflow-hidden">
                         <div className="project" ref={project2Ref}>
                             <div className="image-wrapper bg-[#ffefdb]">
-                                <img src="" alt=""/>
+                                <img src="images/FlappyGoose.png" alt="CubeStand"/>
                             </div>
-                            <h2>caption for another project#2</h2>
+                            <h2>Flappy Goose Puzzle and Toy</h2>
                         </div>
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffee7b]">
