@@ -1,7 +1,6 @@
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import { ShowcaseSection } from "./sections/ShowcaseSection";
-import { FeatureCards } from "./sections/FeatureCards";
 import { ExperienceSection } from "./sections/ExperienceSection";
 import { TechStack } from "./sections/TechStack";
 import { Footer } from "./sections/Footer";
@@ -12,11 +11,9 @@ const App = () => (
   <>
     <Navbar/>
     <Hero />
-    <ShowcaseSection/>
-    
+    <ShowcaseSection/>  
     <ExperienceSection/>
     <TechStack/>
-    <FeatureCards/>
     <Footer/>
 
     

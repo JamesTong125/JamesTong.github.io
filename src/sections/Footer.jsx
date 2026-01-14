@@ -5,7 +5,11 @@ export const Footer = () => {
         <footer className="footer">
             <div className="footer-container">
                 <div className="flex flex-col justify-center items-center">
-                    <a href="">Visit my blog</a>
+                    <a href="/James Tong - Resume - Hardware.pdf" download="James Tong - Resume - Hardware.pdf"className="contact-btn group">
+                        <div className="inner">
+                            <span>My Resume</span>
+                        </div>
+                    </a>
                 </div>
                 <div className="socials">
                     {socialImgs.map((img) => (
