@@ -74,9 +74,9 @@ export const ShowcaseSection = () => {
                         </div>
                         <div className="project" ref={project3Ref}>
                             <div className="image-wrapper bg-[#ffee7b]">
-                                <img src="" alt=""/>
+                                <img src="/images/WIP.jpg" alt="Work in progress"/>
                             </div>
-                            <h2>caption for another project#3</h2>
+                            <h2>WIP</h2>
                         </div>
                     </div>
 

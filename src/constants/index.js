@@ -25,48 +25,6 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
-
-const abilities = [
-  {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
-  },
-  {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
-  },
-  {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
-  },
-];
-
-const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
-];
-
 const techStackIcons = [
   {
     name: "React Developer",
@@ -138,27 +96,20 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    url: "https://www.instagram.com/jame.s.tong/"
   },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
+
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/james-tong-6022592b6/"
   },
 ];
 
 export {
   words,
-  abilities,
   expCards,
   socialImgs,
   techStackIcons,
-  techStackImgs,
   navLinks,
 };
