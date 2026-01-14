@@ -48,7 +48,7 @@ export const Navbar = () => {
                 </nav>
 
 
-                <a href="#contact" className="contact-btn group">
+                <a href="mailto:james77.tong@gmail.com" className="contact-btn group">
                     <div className="inner">
                         <span>Reach Out</span>
                     </div>
